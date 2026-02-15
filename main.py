@@ -199,7 +199,7 @@ def main():
         base = place_image(base, icon, position=position, rotation=deg)
 
     base.show()
-    base.save(f"skills-showcase-{random.randint(1,100)}.png")
+    # base.save(f"skills-showcase-{random.randint(1,100)}.png")
 
 
 if __name__ == "__main__":
