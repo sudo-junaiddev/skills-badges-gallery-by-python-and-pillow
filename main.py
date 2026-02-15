@@ -185,7 +185,7 @@ def main():
         # drawing.append((position,deg))
 
         x, y = arrange_icon(i)
-        deg = 0
+        deg = random.randint(0,270)
 
         position = (x, y)
         drawing.append((position, deg))
@@ -199,7 +199,7 @@ def main():
         base = place_image(base, icon, position=position, rotation=deg)
 
     base.show()
-    # base.save(f"skills-showcase-{random.randint(1,100)}.png")
+    base.save(f"skills-showcase-{random.randint(1,100)}.png")
 
 
 if __name__ == "__main__":
