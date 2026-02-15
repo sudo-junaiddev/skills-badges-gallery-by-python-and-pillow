@@ -1,0 +1,8 @@
+# Backup of icon file paths, i.e, manifest of icons
+backup-icon-paths.txt
+
+# icons
+icons/
+
+# venv
+venv/
